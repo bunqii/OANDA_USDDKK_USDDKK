@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_DKK",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_USDDKK_USDDKK_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_USDDKK_USDDKK_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1845,
+  "first_candle": {
+    "time": 1086037200,
+    "Time": "2004-05-31T21:00:00.000000000Z",
+    "open": 6.0726,
+    "high": 6.0726,
+    "low": 6.0726,
+    "close": 6.0726,
+    "volume": 2
+  },
+  "last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 5.19005,
+    "high": 5.20166,
+    "low": 5.15321,
+    "close": 5.195,
+    "volume": 25180
+  },
+  "csv_file": "OANDA_USDDKK_USDDKK_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1845,
+  "csv_first_candle": {
+    "time": 1086037200,
+    "Time": "2004-05-31T21:00:00.000000000Z",
+    "open": 6.0726,
+    "high": 6.0726,
+    "low": 6.0726,
+    "close": 6.0726,
+    "volume": 2
+  },
+  "csv_last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 5.19005,
+    "high": 5.20166,
+    "low": 5.15321,
+    "close": 5.195,
+    "volume": 25180
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:41:21.000000000Z",
+  "generated_at": "2026-10-16T01:41:21.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2004-05-31T21:00:00Z",
+        "to": "2018-02-07T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
